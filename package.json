@@ -1,0 +1,23 @@
+{
+  "name": "weth-supply-issue",
+  "version": "1.0.0",
+  "description": "Example repo to show a case where weth supply is not accurate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoherrerai/weth-supply-issue.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodrigoherrerai/weth-supply-issue/issues"
+  },
+  "homepage": "https://github.com/rodrigoherrerai/weth-supply-issue#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.2"
+  }
+}
