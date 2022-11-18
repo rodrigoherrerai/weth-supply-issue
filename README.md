@@ -12,7 +12,7 @@ function totalSupply() public view returns (uint) {
     }
 ```
 
-- When transfering Eth through selfDestruct, the fallback function won't be triggered, therefore bypassing minting of Weth. This will make the Weth contract having more Eth than Weth, therefore the "totalSupply" function won't be accurate.
+- When transferring Eth through selfDestruct, the fallback function of the receiver contract won't be triggered, therefore the equivalent Weth won't be minted. This will cause the Weth contract to have more Eth than Weth, therefore the "totalSupply" function won't be accurate.
 
 ## Usage
 
